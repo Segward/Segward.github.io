@@ -1,0 +1,37 @@
+html, body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: gray;
+    text-align: center;
+}
+
+body .header {
+    height: 10vh;
+    background-color: darkslategray;
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+body .header .nav-links a {
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    padding-inline: 2.5vw; /* Add space between links */
+    transition: font-size 0.3s ease; /* Smooth transition for text color */
+}
+
+body .header .nav-links a:hover {
+    font-size: 1.7em; /* Increase font size on hover */
+}
+
+body .header .social-links img {
+    width: 3em; /* Adjust the size of the logos */
+    height: auto;
+    padding-inline: 2.5vw; /* Add space between logos */
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+body .header .social-links img:hover {
+    transform: scale(1.2); /* Scale image on hover */
+}
