@@ -58,7 +58,28 @@ h3 {
 }
 
 .content-home {
-    padding-left: 10vw;
-    text-align: left;
+    position: absolute;
+    left: 5vw;
+    width: 40vw;
+}
+
+.selfie-home {
+    top: 20vh;
+    right: 10vw;
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.5);
+}
+
+.selfie-home img {
+    width: 25vw;
+    height: auto;
+    display: block;
+}
+
+.content-about {
+    position: absolute;
+    left: 5vw;
     width: 40vw;
 }
