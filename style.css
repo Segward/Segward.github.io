@@ -1,37 +1,64 @@
 html, body {
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
     background-color: gray;
-    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
-body .header {
-    height: 10vh;
+.header {
     background-color: darkslategray;
-    display: flex; /* Use Flexbox */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-body .header .nav-links a {
-    font-size: 1.5em;
+.nav-links a {
     color: white;
+    font-size: 1.5em;
+    font-style: italic;
     text-decoration: none;
-    padding-inline: 2.5vw; /* Add space between links */
-    transition: font-size 0.3s ease; /* Smooth transition for text color */
+    padding-inline: 2.5vw;
+    transition: 0.3s ease; 
 }
 
-body .header .nav-links a:hover {
-    font-size: 1.7em; /* Increase font size on hover */
+.nav-links a:hover {
+    color: gray;
 }
 
-body .header .social-links img {
-    width: 3em; /* Adjust the size of the logos */
+.nav-links a.active {
+    color: black;
+}
+
+.social-links img {
+    width: 3em;
     height: auto;
-    padding-inline: 2.5vw; /* Add space between logos */
-    transition: transform 0.3s ease; /* Smooth transition for scaling */
+    padding-inline: 2.5vw;
+    transition: 0.3s ease;
+}
+.social-links img:hover {
+    transform: scale(1.2);
 }
 
-body .header .social-links img:hover {
-    transform: scale(1.2); /* Scale image on hover */
+h1 {
+    color: white;
+    font-size: 5em;
+    font-style: italic;
+}
+
+h2 {
+    color: white;
+    font-size: 3em;
+    font-style: italic;
+}
+
+h3 {
+    color: white;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.content-home {
+    padding-left: 10vw;
+    text-align: left;
+    width: 40vw;
 }
