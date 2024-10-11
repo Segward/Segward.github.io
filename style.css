@@ -58,7 +58,7 @@ body {
     width: 50vw;
     margin-left: 25vw;
     margin-top: 10vh;
-    margin-bottom: 50vh;
+    margin-bottom: 25vh;
 }
 
 .container h2 {
@@ -75,8 +75,6 @@ body {
     color: gray;
     font-size: 1.25rem;
 }
-
-
 
 .home-container {
     display: flex;
@@ -103,7 +101,7 @@ body {
 
 .project-container, .about-container, .social-container, .technologies-container {
     border-bottom: 0.1rem solid gray;
-    padding-bottom: 5vh;
+    padding-bottom: 2.5vh;
 }
 
 .project-container .buttons-container {
@@ -121,7 +119,7 @@ body {
 .technologies-container .icons-container div {
     display: flex;
     flex-direction: row;
-    gap: rem;
+    gap: 1rem;
     align-items: center;
     justify-content: center;
 }
