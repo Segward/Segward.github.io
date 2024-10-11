@@ -58,7 +58,7 @@ body {
     width: 50vw;
     margin-left: 25vw;
     margin-top: 10vh;
-    margin-bottom: 50vh;
+    padding-bottom: 100vh;
 }
 
 .container h2 {
