@@ -105,7 +105,7 @@ body {
     background-color: var(--ishgray);
 }
 
-.project-container, .about-container, .social-container, .technologies-container {
+.project-container, .about-container, .social-container, .technologies-container, .video-container {
     border-bottom: 0.1rem solid var(--ishgray);
     padding-bottom: 2.5vh;
 }
@@ -155,4 +155,9 @@ body {
     color: cadetblue;
     text-decoration: none;
     font-size: 1.25rem;
+}
+
+.video-container video {
+    width: 20vw;
+    height: auto;
 }
