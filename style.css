@@ -68,12 +68,12 @@ body {
 
 .container h1 {
     color: white;
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 
 .container p {
     color: gray;
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 
 
@@ -113,9 +113,17 @@ body {
 }
 
 .technologies-container .icons-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10vh, 1fr));
+    gap: 2.5rem;
+}
+
+.technologies-container .icons-container div {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .technologies-container .icons-container img {
@@ -131,5 +139,5 @@ body {
 .social-container .buttons-container a {
     color: cadetblue;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
