@@ -138,8 +138,14 @@ body {
     height: 4rem;
 }
 
+.social-container .buttons-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
 .social-container .buttons-container img {
-    width: 10vh;
+    width: 5rem;
     height: auto;
 }
 
