@@ -95,11 +95,12 @@ body {
 .home-container .selfie-container {
     flex: 0;
     text-align: right;
+    margin-right: 0.75rem;
 }
 
 .home-container .selfie-container img {
-    width: 10rem;
-    height: 10rem;
+    width: 9rem;
+    height: 9rem;
     border-radius: 50%;
     background-color: var(--ishgray);
 }
