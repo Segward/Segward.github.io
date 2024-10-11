@@ -2,7 +2,7 @@
     --ishgray: rgb(179, 179, 179);
     --background: rgb(28, 28, 32);
     --borderoutline: rgba(31, 31, 31, 0.5);
-    --selfiebackground: rgb(40, 39, 42);
+    --selfiebackground: rgba(32, 32, 34, 0.5);
 }
 
 html {
@@ -113,8 +113,8 @@ body {
 
 .home-container .selfie-container img {
     width: 7rem;
-    height: auto;
-    border-radius: 25%;
+    height: 7rem;
+    border-radius: 40%;
     background-color: var(--selfiebackground);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
