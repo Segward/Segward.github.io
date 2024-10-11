@@ -52,16 +52,16 @@ body {
     align-items: center; 
     gap: 1rem;
     margin-right: 10rem;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-    transition: 0.3s ease;
 }
 
 .navigation-container a {
     color: white;
     text-decoration: none;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease;
 }
 
-.navigation-container:hover {
+.navigation-container a:hover {
     cursor: pointer;
     transform: scale(1.1);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
