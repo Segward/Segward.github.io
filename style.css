@@ -1,5 +1,7 @@
 :root {
     --ishgray: rgb(179, 179, 179);
+    --background: rgb(28, 28, 32);
+    --borderoutline: rgba(30, 30, 30, 0.5);
 }
 
 html {
@@ -7,7 +9,7 @@ html {
 }
 
 body {
-    background-color: rgb(28, 28, 30);
+    background-color: var(--background);
     margin: 0;
     padding: 0;
 }
@@ -50,6 +52,8 @@ body {
     align-items: center; 
     gap: 1rem;
     margin-right: 10rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease;
 }
 
 .navigation-container a {
@@ -59,6 +63,8 @@ body {
 
 .navigation-container:hover {
     cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .container {
@@ -108,7 +114,13 @@ body {
     width: 7rem;
     height: 7rem;
     border-radius: 50%;
-    background-color: var(--ishgray);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home-container .selfie-container img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .project-container, .about-container, .social-container, .technologies-container, .video-container {
@@ -120,7 +132,16 @@ body {
     background-color: white;
     padding: 0.4rem 1rem;
     border-radius: 0.25rem;
+    border: 0.01rem solid var(--borderoutline);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease;
+}
+
+.project-container button:hover {
     cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    background-color: var(--ishgray);
 }
 
 .technologies-container .icons-container {
@@ -144,6 +165,15 @@ body {
 .technologies-container .icons-container img {
     width: 4rem;
     height: 4rem;
+    border-radius: 10%;
+    border: 0.01rem solid var(--borderoutline);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease;
+}
+
+.technologies-container .icons-container img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .social-container .buttons-container {
@@ -155,6 +185,15 @@ body {
 .social-container .buttons-container img {
     width: 5rem;
     height: auto;
+    border-radius: 10%;
+    border: 0.01rem solid var(--borderoutline);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease;
+}
+
+.social-container .buttons-container img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .social-container .buttons-container a {
