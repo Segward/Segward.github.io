@@ -113,13 +113,13 @@ body {
 .technologies-container .icons-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(10vh, 1fr));
-    gap: 2.5rem;
+    gap: 3.5rem;
 }
 
 .technologies-container .icons-container div {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 0.5rem;
     align-items: center;
     justify-content: center;
 }
