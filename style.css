@@ -1,3 +1,7 @@
+:root {
+    --ishgray: rgb(152, 152, 152);
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -13,7 +17,7 @@ body {
     left: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.4);
-    border-bottom: 0.1rem solid gray;
+    border-bottom: 0.1rem solid var(--ishgray);
     padding: 1.5rem;
     position: fixed;
     display: flex;
@@ -64,17 +68,17 @@ body {
 
 .container h2 {
     color: white;
-    font-size: 2rem;
+    font-size: 1.75rem;
 }
 
 .container h1 {
     color: white;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 .container p {
-    color: gray;
-    font-size: 1.25rem;
+    color: var(--ishgray);
+    font-size: 1.5rem;
 }
 
 .home-container {
@@ -97,11 +101,11 @@ body {
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
-    background-color: gray;
+    background-color: var(--ishgray);
 }
 
 .project-container, .about-container, .social-container, .technologies-container {
-    border-bottom: 0.1rem solid gray;
+    border-bottom: 0.1rem solid var(--ishgray);
     padding-bottom: 2.5vh;
 }
 
