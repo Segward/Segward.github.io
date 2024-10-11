@@ -93,8 +93,8 @@ body {
 }
 
 .home-container .selfie-container img {
-    width: 15vh;
-    height: 15vh;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
     background-color: gray;
 }
