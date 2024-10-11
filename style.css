@@ -1,0 +1,135 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    position: fixed;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    color: white;
+    font-size: 1.5rem;
+}
+
+.header-text {
+    flex: 1; 
+    text-align: left; 
+}
+
+.navigation-container {
+    flex: 0; 
+    text-align: right; 
+    margin-right: 5rem;
+}
+
+.navigation-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.navigation-container li {
+    display: inline;
+}
+
+.navigation-container a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    place-items: left;
+    height: 100vh;
+    width: 50vw;
+    margin-left: 25vw;
+    margin-top: 10vh;
+    margin-bottom: 50vh;
+}
+
+.container h2 {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.container h1 {
+    color: white;
+    font-size: 1rem;
+}
+
+.container p {
+    color: gray;
+    font-size: 1rem;
+}
+
+
+
+.home-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.home-container .home-content-container {
+    flex: 1;
+    text-align: left;
+}
+
+.home-container .selfie-container {
+    flex: 0;
+    text-align: right;
+}
+
+.home-container .selfie-container img {
+    width: 15vh;
+    height: 15vh;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.project-container, .about-container, .social-container, .technologies-container {
+    border-bottom: 0.1rem solid gray;
+    padding-bottom: 5vh;
+}
+
+.project-container .buttons-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.technologies-container .icons-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.technologies-container .icons-container img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.social-container .buttons-container img {
+    width: 10vh;
+    height: auto;
+}
+
+.social-container .buttons-container a {
+    color: cadetblue;
+    text-decoration: none;
+    font-size: 1rem;
+}
