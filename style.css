@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: black;
+    background-color: rgb(28, 28, 30);
     margin: 0;
     padding: 0;
 }
@@ -12,8 +12,9 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-bottom: 0.1rem solid gray;
+    padding: 1.5rem;
     position: fixed;
     display: flex;
     justify-content: space-between; 
